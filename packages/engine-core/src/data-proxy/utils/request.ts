@@ -104,8 +104,10 @@ async function nodeFetch(url: string, options: RequestOptions = {}): Promise<Req
   return new Promise((resolve, reject) => {
     // we execute the https request and build a fetch response out of it
     const request = https.request(url, httpsOptions, (response) => {
-      // eslint-disable-next-line prettier/prettier
-      const { statusCode, headers: { location } } = response
+      const {
+        statusCode,
+        headers: { location },
+      } = response
 
       if (statusCode! >= 301 && statusCode! <= 399 && location) {
         if (location.startsWith('http') === false) {
