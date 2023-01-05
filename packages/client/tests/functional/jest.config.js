@@ -2,7 +2,7 @@
 const os = require('os')
 const path = require('path')
 
-const runtimeDir = path.dirname(require.resolve('../../runtime'))
+const runtimeDir = path.dirname(require.resolve('../../runtime/library'))
 const packagesDir = path.resolve('..', '..', '..')
 
 module.exports = () => {
