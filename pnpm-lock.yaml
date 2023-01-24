@@ -166,7 +166,7 @@ importers:
       open: 7.4.2
       pkg-up: 3.1.0
       resolve-pkg: 2.0.0
-      rimraf: 3.0.2
+      rimraf: 4.1.2
       strip-ansi: 6.0.1
       ts-pattern: 4.0.5
       typescript: 4.8.4
@@ -209,7 +209,7 @@ importers:
       open: 7.4.2
       pkg-up: 3.1.0
       resolve-pkg: 2.0.0
-      rimraf: 3.0.2
+      rimraf: 4.1.2
       strip-ansi: 6.0.1
       ts-pattern: 4.0.5
       typescript: 4.8.4
@@ -278,7 +278,7 @@ importers:
       pkg-up: 3.1.0
       pluralize: 8.0.0
       resolve: 1.22.1
-      rimraf: 3.0.2
+      rimraf: 4.1.2
       simple-statistics: 7.8.0
       sort-keys: 4.2.0
       source-map-support: 0.5.21
@@ -358,7 +358,7 @@ importers:
       pkg-up: 3.1.0
       pluralize: 8.0.0
       resolve: 1.22.1
-      rimraf: 3.0.2
+      rimraf: 4.1.2
       simple-statistics: 7.8.0
       sort-keys: 4.2.0
       source-map-support: 0.5.21
@@ -498,7 +498,7 @@ importers:
       p-map: 4.0.0
       p-retry: 4.6.2
       progress: 2.0.3
-      rimraf: 3.0.2
+      rimraf: 4.1.2
       strip-ansi: 6.0.1
       temp-dir: 2.0.0
       tempy: 1.0.1
@@ -518,7 +518,7 @@ importers:
       p-map: 4.0.0
       p-retry: 4.6.2
       progress: 2.0.3
-      rimraf: 3.0.2
+      rimraf: 4.1.2
       temp-dir: 2.0.0
       tempy: 1.0.1
     devDependencies:
@@ -11416,6 +11416,11 @@ packages:
     hasBin: true
     dependencies:
       glob: 7.2.3
+
+  /rimraf/4.1.2:
+    resolution: {integrity: sha512-BlIbgFryTbw3Dz6hyoWFhKk+unCcHMSkZGrTFVAx2WmttdBSonsdtRlwiuTbDqTKr+UlXIUqJVS4QT5tUzGENQ==}
+    engines: {node: '>=14'}
+    hasBin: true
 
   /roarr/2.15.4:
     resolution: {integrity: sha512-CHhPh+UNHD2GTXNYhPWLnU8ONHdI+5DI+4EYIAOaiD63rHeYlZvyh8P+in5999TTSFgUYuKUAjzRI4mdh/p+2A==}
